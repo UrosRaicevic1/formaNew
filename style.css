@@ -1,0 +1,95 @@
+h1{
+  text-align: center;
+}
+/* PREKOPIRAO SA CSS GRADIENT MAKER :D */
+body {
+  background: #636363; 
+  background: -webkit-linear-gradient(to right, #a2ab58, #636363);  
+  background: linear-gradient(to right, #a2ab58, #636363); 
+  
+  font-family: Arial, sans-serif;
+}
+
+form {
+ 
+  margin: 50px auto;
+  width: 600px;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px rgba(247, 43, 2, 0.808);
+}
+
+label {
+  padding: 10px;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 60%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgb(247, 16, 4);
+  font-size: 1.1rem;
+}
+
+#submit{
+  margin-top: 10px;
+  width: 64%;
+  background-color: #ff6666;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+#submit:hover {
+  background-color: #967373;
+}
+
+/* NASAO NA W3Schools :D */
+
+@keyframes blink {
+  0% {
+    border-color: red;
+  }
+  50% {
+    border-color: white;
+  }
+  100% {
+    border-color: red;
+  }
+}
+
+.error {
+  animation: blink 1s infinite;
+}
+/* DA LI SAM MOGAO DRUGACIJE DA RIJESIM DA BI MI SE PORUKA NALAZILA ISPOD INPUTA , ILI JE I OVO OK*/
+.error-message {
+  display: flex;
+  
+  color: red;
+  font-weight: bold;
+  font-size: 14px;
+  
+
+}
+
+#output{
+
+  border-top:2px  solid black ;
+  color: white;
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.success {
+  border-color: green;
+}
